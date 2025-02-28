@@ -62,7 +62,7 @@ void Stack::displayStack()
     }
     else
     {
-        cout << "The stack contains ";
+        cout << "The stack contains the following";
         for (int i = 0; i < tos; i++)
         {
             cout << st[i] << " ";
